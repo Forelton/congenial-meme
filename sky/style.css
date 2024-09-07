@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color: #163A24;
+    color: #fbfaf7;
+    height: 98px;
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__link{
+    color: #fbfaf7;
+    margin-top: 28px;
+
+}
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.btn{
+    background-color:  #198c36;
+    padding: 15px 25px;
+    border-radius: 160px;
+    margin-top: 25px;
+}
+
+.first-section{
+    background-color: #163A24;
+    height: calc(100vh - 98px);
+    background: url(photo_2024-09-08_01-44-54.jpg) no-repeat center center / cover;
+}
+.first-section__text-block{
+    color: #fbfaf7;
+    max-width: 475px;
+    padding-top: 120px;
+
+}
+.section__title{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Recoleta;
+    width: 500px;
+    font-weight: 600px;
+}
+.section__sub-tittle{
+    font-size: 18px;
+    padding: 37px;
+    margin-left: -40px;
+    font-weight: 400px;
+}
